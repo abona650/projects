@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    implementing navBarand carousel-->
+    <title>JaxStarNet Technologies</title>
+    <link rel="icon" href="images/elephant.jpg">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="bootstrap/js/jquery-3.4.1.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm  bg-light navbar-light sticky-top ">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+  <img src="images/phnumber.png" alt="Logo" width="90" height="50">
+        JaxStarNet Technologies
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+<!--        the ml-auto moves navigation linksto the right-->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Product and services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">computer and computer accessories</a>
+                    <a class="dropdown-item" href="#">computer maintenance</a>
+                    <a class="dropdown-item" href="#">computer networking</a>
+                    <a class="dropdown-item" href="#">VSAT installation</a>
+                    <a class="dropdown-item" href="#">CCTV installation</a>
+                    <a class="dropdown-item" href="#">Graphic design</a>
+                    <a class="dropdown-item" href="#">Web design and development</a>
+                    <a class="dropdown-item" href="#">Software and App development</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FAQS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+            </li>
+        </ul>
+    </div>
+
+
+</nav>
+<!-- coarousel Indicators -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
+        <li data-target="#demo" data-slide-to="6"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/itPicOne.jpg" alt="TechpicOne" width="100%" height="500">
+<!--            carousel capton-->
+            <div class="carousel-caption">
+                <h3>Techpicone</h3>
+                <p>Our first technology picture 2019</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/itPicTwo.jpg" alt="Techpictwo" width="100%" height=500">
+            <div class="carousel-caption">
+                <h3>Techpitwo</h3>
+                <p>Our second technology picture 2019</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/tech1.jpg" alt="Techpicthree" width="100%" height="500">
+            <div class="carousel-caption">
+                <h3>Techpicthree</h3>
+                <p>Our third technology picture 2019</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/tech2.jpg" alt="Techpicfour" width="100%" height="500">
+            <div class="carousel-caption">
+                <h3>Techpicfour</h3>
+                <p>Our forth technology picture 2019</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/tech3.jpg" alt="Techpicfive" width="100%" height="500">
+            <div class="carousel-caption">
+                <h3>Techpicfive</h3>
+                <p>Our fifth technology picture 2019</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/tech4.jpg" alt="Techpicsix" width="100%" height="500">
+            <div class="carousel-caption">
+                <h3>Techpicsix</h3>
+                <p>Our sixth technology picture 2019</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/tech5.jpg" alt="Techpicseven" width="100%" height="500">
+            <div class="carousel-caption">
+                <h3>Techpicseven</h3>
+                <p>Our seventh technology picture 2019</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<h1 class="text-center">Meet The Stakeholders</h1>
+<hr>
+<div class="container-fluid p-0">
+    <div class="row p-0">
+        <div class="col-sm-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="images/pic2.jpg" alt="photo1">
+                <div class="card-body">
+                    <h4 class="card-title"> Irene Wahu</h4>
+                    <p class="card-text">Mrs Irene Wahu is a talented tech marketer with a huge skills in dealing with various computer devices
+                    . She also has rich knowledge in entrepreneural capacity and development.</p>
+                    <a href="#" class="btn btn-outline-secondary"> Read more</a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="images/pic1.jpg" alt="photo1">
+                <div class="card-body">
+                    <h4 class="card-title"> Victor Okal</h4>
+                    <p class="card-text">Mr. Victor Okal is a full stack software developer who has a proven expertise in development of various software
+                    products. His areas of expertise are not limited to web design, web development, android development
+                    and desktop applications.</p>
+                    <a href="#" class="btn btn-outline-secondary"> Read more</a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="images/software1.jpg" alt="photo1">
+                <div class="card-body">
+                    <h4 class="card-title"> Abdi Mohamed</h4>
+                    <p class="card-text">Mr.Abdi Ibrahim is a tech person with skills in graphic design, network installation, VSAT installatin
+                    and computer hardware repair and maintenance.He also has a vast knowledge in capacity
+                    building and training</p>
+                    <a href="#" class="btn btn-outline-secondary"> Read more</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid p-0">
+<div class="row text-center p-0">
+<div class="col-sm-12">
+    <h3>Get Connected</h3>
+</div>
+    <div class="col-sm-12 p-0">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twiter"></i></a>
+        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+</div>
+</div>
+<!--footer 1-->
+<footer>
+    <div class="container-fluid p-0 bg-light">
+    <div class="row text-center">
+    <div class="col-sm-4">
+    <img src="images/fb1.PNG" alt="picone">
+    <hr class="border-light">
+  <p>Operation Hours:</p>
+        <p>Monday-Friday,</p>
+        <p>From 0800hrs-1800hrs,</p>
+    </div>
+        <div class="col-sm-4">
+            <img src="images/tweeter1.PNG" alt="picone">
+            <hr class="border-light">
+            <p>Location:</p>
+            <p>Upperhill Road,</p>
+            <p>Off Heliselasie Avenue,</p>
+            <p>Abona Sqr.</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="images/instagram1.PNG" alt="picone">
+            <hr class="border-light">
+            <P>JaxStarNet Technologies,</P>
+            <p>P O BOX 2300-0100,</p>
+            <P>NAIROBI-KENYA</P>
+
+        </div>
+    </div>
+    </div>
+<!--    footer 2-->
+    <hr>
+</footer>
+<footer class="col-sm-12">
+    <div class="container-fluid p-0 bg-light">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <p>&copy;copyright 2019. <p>(proudly created by okal victor)</p>
+            </div>
+</footer>
+</body>
+</html>
